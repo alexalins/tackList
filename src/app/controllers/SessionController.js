@@ -1,6 +1,6 @@
 import jwt  from "jsonwebtoken";
-import User from '../models/User'
-require('dotenv').config()
+import User from '../models/User';
+require('dotenv').config();
 
 class SessionController {
     async store(req, res) {
